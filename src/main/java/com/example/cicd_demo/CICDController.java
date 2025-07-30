@@ -8,6 +8,6 @@ public class CICDController {
 
     @GetMapping("/message")
     public String getMessage() {
-        return "Deploying Spring Application";
+        return "Deploying Spring Application with CI/CD";
     }
 }
